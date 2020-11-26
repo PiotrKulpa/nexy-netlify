@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "postbuild": "next-on-netlify"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "gray-matter": "^4.0.2",
     "marked": "^1.1.0",
     "next": "^9.4.4",
+    "next-on-netlify": "^2.6.3",
     "parse-md": "^2.0.4",
     "react": "^16.13.1",
     "react-awesome-slider": "^4.1.0",
